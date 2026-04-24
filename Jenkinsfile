@@ -1,10 +1,9 @@
 pipeline {
-    agent any 
-
-    environment {
-        DOCKER_USER = 'martin010805'
-        IMAGE_NAME  = 'agente-ia-entrega'
-    }
+ 
+ environment {
+    DOCKER_USER = 'tzuxsy' 
+    IMAGE_NAME  = 'agente-ia-entrega'
+}
 
     stages {
         stage('Limpieza') {
